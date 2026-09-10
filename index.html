@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ateliê Luz | Moda Noiva & Festa Autoral</title>
+    
+    <!-- Bootstrap 5.3 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    
+    <!-- Google Fonts (Estilo Casamento & Alta Costura) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Great+Vibes&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Estilos Customizados -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#navbarAtelie" data-bs-offset="100">
+
+    <!-- MENU / NAVBAR NUPCIAL -->
+    <nav id="navbarAtelie" class="navbar navbar-expand-lg fixed-top bg-white border-bottom border-light shadow-sm py-3">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center gap-2" href="#home">
+                <span class="font-script fs-1 text-gold lh-1">Luz</span>
+                <div class="border-start border-secondary border-opacity-25 ps-2 ms-1">
+                    <span class="d-block font-serif fw-bold text-dark fs-5 tracking-wide">ATELIÊ LUZ</span>
+                    <small class="d-block text-muted text-uppercase font-sans" style="font-size: 9px; letter-spacing: 2px;">Moda Festa & Noivas</small>
+                </div>
+            </a>
+            
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#menuAtelie" aria-controls="menuAtelie" aria-expanded="false" aria-label="Abrir Menu">
+                <i class="bi bi-list fs-1 text-dark"></i>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="menuAtelie">
+                <ul class="navbar-nav mx-auto gap-lg-3 text-center my-3 my-lg-0">
+                    <li class="nav-item"><a class="nav-link active" href="#home">Início</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#destaques">Experiência</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#historia">O Ateliê</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#colecao">Vestidos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#galeria">Noivas Reais</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#faq">Dúvidas</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contato">Atendimento</a></li>
+                </ul>
+                <div class="text-center">
+                    <a href="https://wa.me/5500000000000?text=Olá!%20Vim%20pelo%20site%20e%20gostaria%20de%20agendar%20um%20horário" target="_blank" class="btn btn-gold rounded-pill px-4 py-2 font-sans fs-7">
+                        <i class="bi bi-calendar-heart me-1"></i> Agendar Horário
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- CARROSSEL HERO (Bootstrap Carousel) -->
+    <section id="home">
+        <div id="carouselHero" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselHero" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselHero" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            </div>
+            <div class="carousel-inner">
+                <!-- Slide 1 -->
+                <div class="carousel-item active hero-slide-1 position-relative">
+                    <div class="hero-overlay"></div>
+                    <div class="container h-100 d-flex align-items-center position-relative z-2 text-center text-white py-5">
+                        <div class="mx-auto" style="max-width: 800px;">
+                            <span class="font-script fs-2 text-gold-light d-block mb-1">L'amour & Poesia</span>
+                            <h1 class="display-3 font-serif fw-normal mb-3 text-uppercase tracking-wide">
+                                O Vestido dos Seus Sonhos <br><em class="font-script text-gold-light text-lowercase">feito à mão</em>
+                            </h1>
+                            <p class="lead text-white-80 font-sans mb-4 fs-6 px-md-5">
+                                Criação autoral sob medida e aluguel de moda festa. Peças únicas que traduzem a sua essência em Apucarana.
+                            </p>
+                            <div class="d-flex justify-content-center gap-3">
+                                <a href="https://wa.me/5500000000000?text=Olá!%20Quero%20agendar%20uma%20visita%20ao%20Ateliê" target="_blank" class="btn btn-gold btn-lg rounded-pill px-4 fs-6">
+                                    <i class="bi bi-whatsapp me-2"></i> Agendar Consultoria
+                                </a>
+                                <a href="#colecao" class="btn btn-outline-light btn-lg rounded-pill px-4 fs-6">Ver Coleção</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Slide 2 -->
+                <div class="carousel-item hero-slide-2 position-relative">
+                    <div class="hero-overlay"></div>
+                    <div class="container h-100 d-flex align-items-center position-relative z-2 text-center text-white py-5">
+                        <div class="mx-auto" style="max-width: 800px;">
+                            <span class="font-script fs-2 text-gold-light d-block mb-1">Inesquecível</span>
+                            <h1 class="display-3 font-serif fw-normal mb-3 text-uppercase tracking-wide">
+                                Brilhe em Cada Detalhe
+                            </h1>
+                            <p class="lead text-white-80 font-sans mb-4 fs-6 px-md-5">
+                                Vestidos para noivas, madrinhas e formandas com acabamentos impecáveis e tecidos selecionados.
+                            </p>
+                            <a href="#galeria" class="btn btn-gold btn-lg rounded-pill px-5 fs-6">Conhecer Noivas Reais</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselHero" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselHero" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Próximo</span>
+            </button>
+        </div>
+    </section>
+
+    <!-- TRÊS DESTAQUES DE SERVIÇOS -->
+    <section id="destaques" class="py-5 bg-cream">
+        <div class="container py-4">
+            <div class="row g-4 text-center">
+                <div class="col-md-4">
+                    <div class="p-4 bg-white rounded-4 shadow-sm h-100 border border-gold-subtle position-relative overflow-hidden card-hover">
+                        <div class="highlight-circle mx-auto mb-3">
+                            <i class="bi bi-scissors fs-2 text-gold"></i>
+                        </div>
+                        <h4 class="font-serif fw-bold mb-2">Sob Medida</h4>
+                        <p class="text-muted small font-sans mb-0">Criação exclusiva desenhada do zero para o seu corpo, estilo e momento especial.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="p-4 bg-white rounded-4 shadow-sm h-100 border border-gold-subtle position-relative overflow-hidden card-hover">
+                        <div class="highlight-circle mx-auto mb-3">
+                            <i class="bi bi-bag-heart fs-2 text-gold"></i>
+                        </div>
+                        <h4 class="font-serif fw-bold mb-2">Aluguel Festa</h4>
+                        <p class="text-muted small font-sans mb-0">Coleção selecionada de vestidos de festa e madrinhas prontos para vestir com elegância.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="p-4 bg-white rounded-4 shadow-sm h-100 border border-gold-subtle position-relative overflow-hidden card-hover">
+                        <div class="highlight-circle mx-auto mb-3">
+                            <i class="bi bi-cup-hot fs-2 text-gold"></i>
+                        </div>
+                        <h4 class="font-serif fw-bold mb-2">Atendimento Único</h4>
+                        <p class="text-muted small font-sans mb-0">Atendimento acolhedor com hora marcada no centro de Apucarana com café e carinho.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SOBRE / HISTÓRIA EDITORIAL -->
+    <section id="historia" class="py-5">
+        <div class="container py-4">
+
+            <!-- Bloco 1 -->
+            <div class="row align-items-center g-5 mb-5">
+                <div class="col-lg-6 order-lg-2">
+                    <div class="editorial-frame position-relative">
+                        <div class="bg-placeholder rounded-4 p-5 text-center shadow-sm" style="min-height: 420px; background-image: url('https://images.unsplash.com/photo-1594552072238-b8a33785b261?auto=format&fit=crop&w=800&q=80'); background-size: cover; background-position: center;">
+                        </div>
+                        <div class="badge-seal">
+                            <span class="font-script fs-4">Luz</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 order-lg-1">
+                    <span class="text-gold font-script fs-3 d-block">Autoral & Afetuoso</span>
+                    <h2 class="display-5 font-serif fw-bold mb-3">Sua história contada em cada pontada</h2>
+                    <p class="text-muted font-sans lead fs-6 mb-4">
+                        No <strong>Ateliê Luz</strong>, acreditamos que o vestido perfeito não é apenas bonito — ele carrega sentimento. Do primeiro esboço ao toque suave das rendas, acompanhamos você em cada etapa desse sonho.
+                    </p>
+                    <a href="https://wa.me/5500000000000?text=Olá!%20Quero%20saber%20mais%20sobre%20o%20processo%20sob%20medida" target="_blank" class="btn btn-outline-gold rounded-pill px-4">
+                        Conhecer o Processo <i class="bi bi-arrow-right ms-2"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Bloco 2 -->
+            <div class="row align-items-center g-5 my-5">
+                <div class="col-lg-6">
+                    <div class="editorial-frame position-relative">
+                        <div class="bg-placeholder rounded-4 p-5 text-center shadow-sm" style="min-height: 420px; background-image: url('https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=800&q=80'); background-size: cover; background-position: center;">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <span class="text-gold font-script fs-3 d-block">Para Noivas e Convidadas</span>
+                    <h2 class="display-5 font-serif fw-bold mb-3">Luz Natural, Rendas & Leveza</h2>
+                    <p class="text-muted font-sans lead fs-6 mb-4">
+                        Nossas criações priorizam o conforto sem abrir mão do caimento impecável. Seja para um casamento ao ar livre sob a luz do sol ou uma grande celebração à noite, temos o vestido ideal para você brilhar.
+                    </p>
+                    <a href="#colecao" class="btn btn-gold rounded-pill px-4">Explorar Modelos</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- COLEÇÃO DE VESTIDOS (PRODUTOS COM FILTRO) -->
+    <section id="colecao" class="py-5 bg-cream">
+        <div class="container py-4">
+            <div class="text-center mb-5">
+                <span class="font-script fs-2 text-gold">Coleção Especial</span>
+                <h2 class="display-5 font-serif fw-bold">Vestidos em Destaque</h2>
+                <p class="text-muted font-sans">Opções para Venda e Aluguel no Ateliê</p>
+                
+                <!-- Botões de Filtro -->
+                <div class="d-flex flex-wrap justify-content-center gap-2 mt-4">
+                    <button class="btn btn-gold-pill active" data-filter="all">Todos</button>
+                    <button class="btn btn-gold-pill" data-filter="noiva">Noivas</button>
+                    <button class="btn btn-gold-pill" data-filter="festa">Madrinhas & Festa</button>
+                    <button class="btn btn-gold-pill" data-filter="aluguel">Disponível para Aluguel</button>
+                </div>
+            </div>
+
+            <div class="row g-4" id="gridVestidos">
+                <!-- Vestido 1 -->
+                <div class="col-md-6 col-lg-4 dress-card" data-category="noiva">
+                    <div class="card border-0 rounded-4 shadow-sm overflow-hidden h-100 card-hover">
+                        <div class="card-img-wrapper position-relative" style="height: 380px; background-image: url('https://images.unsplash.com/photo-1546804784-896d0dca3800?auto=format&fit=crop&w=600&q=80'); background-size: cover; background-position: center;">
+                            <span class="badge bg-gold position-absolute top-0 start-0 m-3 px-3 py-2 rounded-pill font-sans">Noiva • Sob Medida</span>
+                        </div>
+                        <div class="card-body p-4 d-flex flex-column justify-content-between">
+                            <div>
+                                <h4 class="font-serif fw-bold mb-1">Vestido Lírio</h4>
+                                <p class="text-muted small font-sans mb-3">Modelagem fluida com aplicação de renda floral e decote delicado.</p>
+                            </div>
+                            <div class="d-flex align-items-center justify-content-between border-top pt-3">
+                                <div>
+                                    <small class="d-block text-muted" style="font-size: 11px;">CONSULTAR</small>
+                                    <span class="font-serif fw-bold text-gold fs-5">Sob Encomenda</span>
+                                </div>
+                                <a href="https://wa.me/5500000000000?text=Olá!%20Amei%20o%20Vestido%20Lírio,%20gostaria%20de%20mais%20informações" target="_blank" class="btn btn-whatsapp-sm rounded-pill px-3">
+                                    <i class="bi bi-whatsapp me-1"></i> Agendar Prova
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Vestido 2 -->
+                <div class="col-md-6 col-lg-4 dress-card" data-category="festa aluguel">
+                    <div class="card border-0 rounded-4 shadow-sm overflow-hidden h-100 card-hover">
+                        <div class="card-img-wrapper position-relative" style="height: 380px; background-image: url('https://images.unsplash.com/photo-1566174053879-31528523f8ae?auto=format&fit=crop&w=600&q=80'); background-size: cover; background-position: center;">
+                            <span class="badge bg-dark position-absolute top-0 start-0 m-3 px-3 py-2 rounded-pill font-sans">Aluguel Festa</span>
+                        </div>
+                        <div class="card-body p-4 d-flex flex-column justify-content-between">
+                            <div>
+                                <h4 class="font-serif fw-bold mb-1">Vestido Rosé L'amour</h4>
+                                <p class="text-muted small font-sans mb-3">Longo elegante em chiffon rosa seco, ideal para madrinhas.</p>
+                            </div>
+                            <div class="d-flex align-items-center justify-content-between border-top pt-3">
+                                <div>
+                                    <small class="d-block text-muted" style="font-size: 11px;">VALOR ALUGUEL</small>
+                                    <span class="font-serif fw-bold text-gold fs-5">R$ 480,00</span>
+                                </div>
+                                <a href="https://wa.me/5500000000000?text=Olá!%20Tenho%20interesse%20em%20alugar%20o%20Vestido%20Rosé%20L'amour" target="_blank" class="btn btn-whatsapp-sm rounded-pill px-3">
+                                    <i class="bi bi-whatsapp me-1"></i> Reservar
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Vestido 3 -->
+                <div class="col-md-6 col-lg-4 dress-card" data-category="noiva aluguel">
+                    <div class="card border-0 rounded-4 shadow-sm overflow-hidden h-100 card-hover">
+                        <div class="card-img-wrapper position-relative" style="height: 380px; background-image: url('https://images.unsplash.com/photo-1596451190630-186aff535bf2?auto=format&fit=crop&w=600&q=80'); background-size: cover; background-position: center;">
+                            <span class="badge bg-gold position-absolute top-0 start-0 m-3 px-3 py-2 rounded-pill font-sans">Noiva • Pronta Entrega</span>
+                        </div>
+                        <div class="card-body p-4 d-flex flex-column justify-content-between">
+                            <div>
+                                <h4 class="font-serif fw-bold mb-1">Vestido Mística</h4>
+                                <p class="text-muted small font-sans mb-3">Corpete estruturado em tule com brilho sutil e saia esvoaçante.</p>
+                            </div>
+                            <div class="d-flex align-items-center justify-content-between border-top pt-3">
+                                <div>
+                                    <small class="d-block text-muted" style="font-size: 11px;">VALOR VENDA</small>
+                                    <span class="font-serif fw-bold text-gold fs-5">R$ 3.800,00</span>
+                                </div>
+                                <a href="https://wa.me/5500000000000?text=Olá!%20Gostaria%20de%20agendar%20uma%20prova%20do%20Vestido%20Mística" target="_blank" class="btn btn-whatsapp-sm rounded-pill px-3">
+                                    <i class="bi bi-whatsapp me-1"></i> Agendar Prova
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- GALERIA INSTAGRAM NOIVAS REAIS -->
+    <section id="galeria" class="py-5">
+        <div class="container py-4 text-center">
+            <span class="font-script fs-2 text-gold">@_atelierluz</span>
+            <h2 class="display-5 font-serif fw-bold mb-2">Noivas & Clientes Reais</h2>
+            <p class="text-muted font-sans mb-5">Momentos cheios de luz capturados no nosso ateliê</p>
+
+            <div class="row g-3">
+                <div class="col-6 col-md-3">
+                    <div class="insta-photo rounded-4 overflow-hidden shadow-sm" style="height: 260px; background-image: url('https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&w=500&q=80'); background-size: cover; background-position: center;"></div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="insta-photo rounded-4 overflow-hidden shadow-sm" style="height: 260px; background-image: url('https://images.unsplash.com/photo-1583939003579-730e3918a45a?auto=format&fit=crop&w=500&q=80'); background-size: cover; background-position: center;"></div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="insta-photo rounded-4 overflow-hidden shadow-sm" style="height: 260px; background-image: url('https://images.unsplash.com/photo-1520854221256-17451cc331bf?auto=format&fit=crop&w=500&q=80'); background-size: cover; background-position: center;"></div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="insta-photo rounded-4 overflow-hidden shadow-sm" style="height: 260px; background-image: url('https://images.unsplash.com/photo-1532712938310-34cb3982ef74?auto=format&fit=crop&w=500&q=80'); background-size: cover; background-position: center;"></div>
+                </div>
+            </div>
+            
+            <a href="https://www.instagram.com/_atelierluz/" target="_blank" class="btn btn-outline-dark rounded-pill px-4 mt-5 font-sans">
+                <i class="bi bi-instagram me-2 text-danger"></i> Ver mais no Instagram
+            </a>
+        </div>
+    </section>
+
+    <!-- FAQ (DÚVIDAS FREQUENTES EM ACCORDION BOOTSTRAP) -->
+    <section id="faq" class="py-5 bg-cream">
+        <div class="container py-4" style="max-width: 800px;">
+            <div class="text-center mb-5">
+                <span class="font-script fs-2 text-gold">Tire suas Dúvidas</span>
+                <h2 class="display-5 font-serif fw-bold">Perguntas Frequentes</h2>
+            </div>
+
+            <div class="accordion accordion-flush" id="faqAccordion">
+                <div class="accordion-item border-bottom mb-2 bg-transparent">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed fw-semibold font-sans bg-transparent" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                            Com quanto tempo de antecedência devo agendar?
+                        </button>
+                    </h2>
+                    <div id="faq1" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body text-muted font-sans fs-6">
+                            Para <strong>vestidos de noiva sob medida</strong>, recomendamos entre <strong>5 a 8 meses</strong> de antecedência. Para madrinhas e festas, pelo menos <strong>2 meses</strong>.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item border-bottom mb-2 bg-transparent">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed fw-semibold font-sans bg-transparent" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                            Como funciona o pagamento?
+                        </button>
+                    </h2>
+                    <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body text-muted font-sans fs-6">
+                            Facilitamos no PIX com desconto ou parcelamos no cartão de crédito em até 10x. Para vestidos sob medida, cobramos um sinal inicial e o restante é parcelado ao longo das provas.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item border-bottom mb-2 bg-transparent">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed fw-semibold font-sans bg-transparent" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                            Posso levar acompanhantes nas provas?
+                        </button>
+                    </h2>
+                    <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body text-muted font-sans fs-6">
+                            Com certeza! Amamos receber sua mãe, madrinhas e amigas (recomendamos até 3 acompanhantes para que a experiência no ateliê seja aconchegante e focada em você).
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FORMULÁRIO DE ATENDIMENTO COM REDIRECIONAMENTO WHATSAPP -->
+    <section id="contato" class="py-5">
+        <div class="container py-4">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-5">
+                    <span class="font-script fs-2 text-gold">Apucarana - PR</span>
+                    <h2 class="display-5 font-serif fw-bold mb-3">Agende seu atendimento exclusivo</h2>
+                    <p class="text-muted font-sans mb-4">
+                        Atendemos com hora marcada no centro de Apucarana para oferecer uma experiência tranquila e totalmente dedicada a você.
+                    </p>
+
+                    <div class="d-flex align-items-center gap-3 mb-3">
+                        <i class="bi bi-geo-alt-fill text-gold fs-4"></i>
+                        <span class="font-sans text-dark">Atendimento no Centro de Apucarana - PR</span>
+                    </div>
+                    <div class="d-flex align-items-center gap-3 mb-3">
+                        <i class="bi bi-whatsapp text-gold fs-4"></i>
+                        <span class="font-sans text-dark">(00) 00000-0000</span>
+                    </div>
+                    <div class="d-flex align-items-center gap-3">
+                        <i class="bi bi-clock-fill text-gold fs-4"></i>
+                        <span class="font-sans text-dark">Segunda a Sábado - Com Hora Marcada</span>
+                    </div>
+                </div>
+
+                <div class="col-lg-7">
+                    <div class="card border-0 rounded-4 shadow-sm p-4 p-md-5 bg-white border border-gold-subtle">
+                        <h3 class="font-serif fw-bold mb-2">Solicitar Agendamento</h3>
+                        <p class="text-muted small font-sans mb-4">Preencha os dados abaixo para ser direcionada ao nosso WhatsApp com a mensagem montada!</p>
+                        
+                        <form id="formAgendamento">
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <label class="form-label font-sans small fw-bold">Seu Nome *</label>
+                                    <input type="text" id="nome" class="form-control rounded-3" required placeholder="Ex: Maria Silva">
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label font-sans small fw-bold">WhatsApp *</label>
+                                    <input type="tel" id="telefone" class="form-control rounded-3" required placeholder="(43) 90000-0000">
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label font-sans small fw-bold">Você procura vestido para: *</label>
+                                    <select id="tipoEvento" class="form-select rounded-3" required>
+                                        <option value="">Selecione...</option>
+                                        <option value="Noiva">Sou a Noiva</option>
+                                        <option value="Madrinha">Sou Madrinha</option>
+                                        <option value="Formatura / Festa">Formatura / Festa</option>
+                                        <option value="Mãe de Noiva(o)">Mãe de Noiva(o)</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label font-sans small fw-bold">Data aproximada do evento</label>
+                                    <input type="date" id="dataEvento" class="form-control rounded-3">
+                                </div>
+                                <div class="col-12">
+                                    <label class="form-label font-sans small fw-bold">Conte um pouco do seu estilo ou dúvidas</label>
+                                    <textarea id="detalhes" class="form-control rounded-3" rows="3" placeholder="Ex: Gostaria de um vestido leve com renda para casamento de dia..."></textarea>
+                                </div>
+                                <div class="col-12 mt-4">
+                                    <button type="submit" class="btn btn-gold btn-lg w-100 rounded-pill font-sans fs-6 fw-bold">
+                                        <i class="bi bi-whatsapp me-2"></i> Enviar Mensagem no WhatsApp
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER ELEGANTE -->
+    <footer class="bg-dark text-white py-5 border-top border-gold">
+        <div class="container text-center py-3">
+            <span class="font-script fs-1 text-gold d-block mb-1">Ateliê Luz</span>
+            <p class="font-serif tracking-wide text-white-50 text-uppercase small mb-4">Criação Autoral • Sob Medida • Moda Festa</p>
+            <p class="font-sans text-muted small mb-0">&copy; 2024 Ateliê Luz - Apucarana/PR. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- BOTÃO FLUTUANTE WHATSAPP -->
+    <a href="https://wa.me/5500000000000?text=Olá!%20Vim%20pelo%20site%20e%20gostaria%20de%20informações" class="whatsapp-btn-float shadow-lg" target="_blank" title="Fale pelo WhatsApp">
+        <i class="bi bi-whatsapp fs-2 text-white"></i>
+    </a>
+
+    <!-- BOOTSTRAP 5 JS BUNDLE -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- SCRIPT CUSTOMIZADO -->
+    <script src="script.js"></script>
+</body>
+</html>
